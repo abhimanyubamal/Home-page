@@ -24,9 +24,15 @@
     padding-right: -12px;
 }
 
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .bg-img-header {
-    /* background: rgba(0, 0, 0, 0.57), url("../images/header-background.png"); */
-    background-image: url("../images/header-background.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.57)), url("../images/header-background.png");
+    /* background-image: url("../images/header-background.png"); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -43,6 +49,10 @@
 
 .align-center {
     align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 /* Text  */
@@ -110,6 +120,36 @@
     font-weight: 400;
 }
 
+.text-section-h2 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text-section-p {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-box-b {
+    color: #2C49FE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text-box-n {
+    color: #2D3CAE;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* Margin  */
 
 .margin-nav {
@@ -138,9 +178,30 @@
     margin-right: 20px;
 }
 
+.margin-card {
+    margin-top: 46px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 /* Padding */
 .padding-header-para {
     padding-right: 40%;
+}
+
+.padding-section {
+    padding-top: 120px;
+    padding-bottom: 75px;
+}
+
+.padding-card {
+    padding-top: 45px;
+    padding-bottom: 17px;
+}
+
+/* Width  */
+.w-100 {
+    width: 100%;
 }
 
 /* Button  */
@@ -174,6 +235,11 @@
     border-radius: 150px;
     border: transparent;
     padding: 20px 40px;
+}
+
+.card {
+    border-radius: 5px;
+    border: 1px solid #2C49FE;
 }
 
 /* Display  */
@@ -228,4 +294,26 @@
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
+}
+
+/* images  */
+.img-e {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.svg-1 {
+    position: absolute;
+    left: 50%;
+    top: 22px;
+    transform: translate(-50%);
+}
+
+.svg-2 {
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    transform: translate(-50%);
 }
