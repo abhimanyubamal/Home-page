@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: -12px;
+    padding-right: -12px;
+}
+
+.bg-img-header {
+    /* background: rgba(0, 0, 0, 0.57), url("../images/header-background.png"); */
+    background-image: url("../images/header-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* flex  */
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* Text  */
+
+.text-events {
+    color: #2C49FE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.text-free {
+    color: #01C8FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.text-nav-b {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text-nav-n {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-header-b {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.text-header-para {
+    color: #FFF;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-header-h3 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Margin  */
+
+.margin-nav {
+    margin-right: 18px;
+}
+
+.margin-header-b {
+    margin-top: 170px;
+}
+
+.margin-header-para {
+    margin-top: 18px;
+}
+
+.margin-header-button {
+    margin-top: 30px;
+}
+
+/* Padding */
+.padding-header-para {
+    padding-right: 40%;
+}
+
+/* Button  */
+
+.b1 {
+
+    background: #2C49FE;
+    border-radius: 23px;
+    padding: 11px 28px;
+    border: transparent;
+
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
