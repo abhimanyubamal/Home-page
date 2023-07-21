@@ -37,10 +37,21 @@
     background-size: cover;
 }
 
+.bg-img-section {
+    background: linear-gradient(rgba(44, 73, 254, 0.80), rgba(44, 73, 254, 0.80)), url("../images/Woman-laughing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* flex  */
 
 .flex {
     display: flex;
+}
+
+.c-flex {
+    display: flex;
+    flex-direction: column;
 }
 
 .justify-between {
@@ -53,6 +64,10 @@
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
 }
 
 /* Text  */
@@ -150,6 +165,38 @@
     font-weight: 400;
 }
 
+.text-section-2-h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text-section-2-para {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-section-2-bar-b {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-section-2-bar-n {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
 /* Margin  */
 
 .margin-nav {
@@ -184,6 +231,15 @@
     margin-right: 30px;
 }
 
+.margin-section-2-para {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.margin-section-2-h3 {
+    margin-top: 50px;
+}
+
 /* Padding */
 .padding-header-para {
     padding-right: 40%;
@@ -197,6 +253,20 @@
 .padding-card {
     padding-top: 45px;
     padding-bottom: 17px;
+}
+
+.padding-section-2-h3 {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.padding-section-2-para {
+    padding-left: 225px;
+    padding-right: 225px;
+}
+
+.padding-section-2 {
+    padding-bottom: 50px;
 }
 
 /* Width  */
