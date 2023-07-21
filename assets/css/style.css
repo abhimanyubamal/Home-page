@@ -24,6 +24,24 @@
     padding-right: -12px;
 }
 
+.box {
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .col-6 {
     width: 50%;
     padding-left: 12px;
@@ -38,7 +56,7 @@
 }
 
 .bg-img-section {
-    background: linear-gradient(rgba(44, 73, 254, 0.80), rgba(44, 73, 254, 0.80)), url("../images/Woman-laughing.png");
+    background: linear-gradient(rgba(44, 73, 254, 0.80), rgba(44, 73, 254, 0.80)), url("../images/woman-laughing.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -197,6 +215,41 @@
     text-align: center;
 }
 
+.text-section-3-h3 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text-section-3-para {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-section-3-box-l {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-section-3-box-b {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-section-3-box-n {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* Margin  */
 
 .margin-nav {
@@ -267,6 +320,10 @@
 
 .padding-section-2 {
     padding-bottom: 50px;
+}
+
+.padding-section-3 {
+    padding-top: 120px;
 }
 
 /* Width  */
@@ -367,11 +424,18 @@
 }
 
 /* images  */
-.img-e {
+.img-1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.img-2 {
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+    transform: translate(-50%);
 }
 
 .svg-1 {
@@ -386,4 +450,10 @@
     left: 50%;
     top: 6px;
     transform: translate(-50%);
+}
+
+.svg-3 {
+    position: absolute;
+    right: 8%;
+    top: 40%;
 }
